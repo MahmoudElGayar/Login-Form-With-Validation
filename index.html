@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="css/master.css" />
+		<link rel="stylesheet" href="css/all.min.css" />
+		<title>Login Form</title>
+	</head>
+	<body>
+		<div class="page">
+			<div class="container">
+				<div class="form">
+					<h1>login</h1>
+					<form action="">
+						<div class="email" ]>
+							<i class="fas far fa-envelope"></i>
+							<input type="email" name="email" placeholder="Email" />
+						</div>
+						<span class="email-error"
+							><i class="fas fa-triangle-exclamation"></i>&nbsp;Email Must Be
+							Valid And Not Empty</span
+						>
+						<div class="password">
+							<i class="far fas fa-lock"></i>
+							<input type="password" name="password" placeholder="Password" />
+							<i class="fas fa-eye show"></i>
+						</div>
+						<span class="password-error"
+							><i class="fas fa-triangle-exclamation"></i>&nbsp;Password Must
+							Has 3 to 18 Characters</span
+						>
+						<div class="remember">
+							<input type="checkbox" name="remember" id="remember" />
+							<label for="remember">remember me</label>
+						</div>
+						<input type="submit" name="submit" value="login" />
+						<span>or login with</span>
+					</form>
+					<div class="social-platforms">
+						<div class="facebook">
+							<i class="fab fab fa-facebook-square"></i>
+							<span>facebook</span>
+						</div>
+						<div class="google">
+							<i class="fab fa-google"></i>
+							<span>google</span>
+						</div>
+					</div>
+					<span> not a member? <u>sign up now</u> </span>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="/js/main.js"></script>
+</html>
